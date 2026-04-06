@@ -12,7 +12,7 @@ app.get('/news', (req, res) => {
 
 // Journey 2: View Nearby Restaurants
 app.get('/restaurants', (req, res) => {
-    res.send('<h1>Nearby Restaurants</h1><ul><li>Pizza Palace - 0.2 miles</li><li>Sushi Central - 0.5 miles</li></ul>');
+    res.send('<h1>Nearby Restaurants</h1><ul><li>Pizza Palace - 1.2 miles</li><li>Sushi Central - 0.5 miles</li></ul>');
 });
 
 app.listen(port, () => console.log(`Web App listening at http://localhost:${port}`));
